@@ -10,7 +10,7 @@ Right-click on index.html and open in broswer using Live Server.
 
 | File                               | Source                                                                          |
 | ---------------------------------- | ------------------------------------------------------------------------------- |
-| `assets/images/background.png` [1] | Kandi, Super Mario Bros. Classic - 8K Ultra HD Wallpaper - wall.alphacoders.com |
+| `assets/images/background.jpg` [1] | Kandi, Super Mario Bros. Classic - 8K Ultra HD Wallpaper - wall.alphacoders.com |
 | `assets/images/coin.png` [2]       | Paykvector, Mario Pixel Art Character Set Vector Image - vectorstock.com        |
 | `assets/images/coin.png` [3]       | Shutterstock, Pixel gold coin spin animation sprite sheet - shutterstock.com    |
 
