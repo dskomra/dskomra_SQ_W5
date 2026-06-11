@@ -117,6 +117,7 @@ let coinsCollected = 0;
 // GAME STATE
 // ------------------------------------------------------------
 let gameWon = false;
+let musicStarted = false;
 
 // Images
 let mario;
@@ -178,9 +179,6 @@ function setup() {
       }
     }
   }
-
-  // Start playing the theme music in a loop
-  theme.loop();
 }
 
 // ============================================================
@@ -543,4 +541,18 @@ function drawWinScreen() {
     width / 2,
     height / 2 + 40,
   );
+}
+
+// ------------------------------------------------------------
+// keyPressed()
+// Fires whenever any key is pressed.
+// Starts the theme music on the first key press.
+// Returns false to prevent default browser behavior.
+// ------------------------------------------------------------
+function keyPressed() {
+  if (!musicStarted) {
+    theme.loop();
+    musicStarted = true;
+  }
+  return false;
 }
